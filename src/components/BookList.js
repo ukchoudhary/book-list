@@ -40,7 +40,7 @@ class BookList extends React.Component {
                 />
               </div>
               <div className="contents">
-                <h3 style={{ color: "blue" }}>{item.volumeInfo.title}</h3>
+                <h3>{item.volumeInfo.title}</h3>
                 <br />
                 <Rating icon='star' defaultRating={item.volumeInfo.averageRating} maxRating={5}
                 />

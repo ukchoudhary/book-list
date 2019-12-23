@@ -20,6 +20,11 @@
     margin: 10px;
 }
 
+.contents h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  color: chartreuse;
+}
+
 .description {
     display: flex;
     flex-direction: column;
