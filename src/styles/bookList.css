@@ -1,0 +1,42 @@
+.book-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    border-style: inset;
+    background-color: 	rgb(242, 230, 255);
+}
+
+.image-box {
+    width: 15vw;
+    height: 15vw;
+    padding: 2px;
+    margin: 10px;
+}
+
+.contents {
+    width: 15vw;
+    height: 15vw;
+    padding: 2px;
+    margin: 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70vw;
+    height: 15vw;
+    
+}
+
+.description span {
+    color: black;
+    overflow-y: auto;
+    margin: 5px;
+    height: 90vw;
+}
+
+.description Icon {
+    margin: 10px;
+    height: 10vw;
+}
